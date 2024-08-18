@@ -26,14 +26,20 @@ const Mainpage = () => {
       <div className="overflow-x-hidden bg-white h-screen md:hidden">
         {/* card */}
         <MobileCard/>
+
+         {/* skills */}
+         <MobileSkills/>
+
+         {/* projects */}
+        <MobileProject/>
+
+
         {/* education */}
         <MobileEducation/>
         {/* experience*/}
         <MobileExperience/>
-        {/* skills */}
-        <MobileSkills/>
-        {/* projects */}
-        <MobileProject/>
+       
+        
         {/* contact */}
        <MobileContact/>
 
