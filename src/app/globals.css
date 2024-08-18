@@ -33,17 +33,23 @@ body {
 }
 
 
-/*custom css scroll bar */
-::-webkit-scrollbar{
-    width: 5px;
-    border-radius: 50%;
-  }
-  
-  ::-webkit-scrollbar-track{
-    background-color: gray;
-  }
-  
-  ::-webkit-scrollbar-thumb{
-    background-color: blue;
-  }
-  
+.custom-image{
+  background-image: url("../../public/assets/edu2.jpg");
+}
+ 
+.custom-image2{
+  background-image: url("../../public/assets/exp2.jpg");
+}
+
+.custom-image3{
+  background-image: url("../../public/assets/skills2.jpg");
+}
+
+.custom-image4{
+  background-image: url("../../public/assets/pro3.jpg");
+}
+
+.custom-image5{
+  background-image: url("../../public/assets/cont1.jpg");
+}
+

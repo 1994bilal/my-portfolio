@@ -40,6 +40,7 @@ const Projects = () => {
   ]
  
   return (
+    <div className="bg-fixed bg-cover bg center custom-image4">
     <Card data-aos="zoom-in" className="h-[85vh] w-full overflow-y-auto ">
           <CardHeader>
             <CardTitle className="text-2xl font-semibold tracking-tight uppercase">Projects</CardTitle>
@@ -89,6 +90,7 @@ const Projects = () => {
             
           </CardFooter>
         </Card>
+        </div>
   )
 }
 

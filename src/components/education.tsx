@@ -58,7 +58,8 @@ const Education = () => {
 
 ];
   return (
-    <Card data-aos="zoom-in" className="h-[85vh] w-full overflow-y-auto ">
+    <div className="bg-fixed bg-cover bg center custom-image">
+    <Card data-aos="zoom-in" className="h-[85vh] w-full overflow-y-auto">
           <CardHeader>
             <CardTitle className="text-2xl font-semibold tracking-tight uppercase">Education</CardTitle>
           
@@ -97,6 +98,7 @@ const Education = () => {
           </CardContent>
           
         </Card>
+        </div>
   )
 }
 

@@ -60,6 +60,7 @@ work:["Data Entry Forms", "Children BioData" ]
   
 ];
   return (
+    <div className="bg-fixed bg-cover bg center custom-image2">
     <Card data-aos="zoom-in" className="h-[85vh] overflow-y-auto">
           <CardHeader>
             <CardTitle className="text-2xl font-semibold tracking-tight uppercase">Experience</CardTitle>
@@ -106,6 +107,7 @@ work:["Data Entry Forms", "Children BioData" ]
             
           </CardFooter>
         </Card>
+        </div>
   )
 }
 

@@ -12,7 +12,7 @@ import { Button } from './ui/button'
 
 const contact = () => {
   return (
-
+    <div className="bg-fixed bg-cover bg center custom-image5">
     <Card data-aos="zoom-in" className="h-[85vh] w-full overflow-y-auto">
           <CardHeader>
             <CardTitle className="text-2xl font-semibold tracking-tight uppercase">Contact</CardTitle>
@@ -119,21 +119,17 @@ const contact = () => {
         
         />
       </div>
-      <Button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+      <Button className=" ml-9 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
         Submit
       </Button>
       </form>
     </div>
   </div>
           
-         
-
-  
-
-          </CardContent>
+         </CardContent>
           
         </Card>
-    
+        </div>   
   )
 }
 

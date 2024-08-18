@@ -12,6 +12,7 @@ import {
 const Skills = () => {
   
   return (
+    <div className="bg-fixed bg-cover bg center custom-image3">
     <Card data-aos="zoom-in" className="h-[85vh] w-full overflow-y-auto ">
           <CardHeader>
             <CardTitle className="text-2xl font-semibold tracking-tight uppercase">Skills
@@ -180,6 +181,7 @@ const Skills = () => {
           </CardContent>
           
         </Card>
+        </div>
   )
 }
 

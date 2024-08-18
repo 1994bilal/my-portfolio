@@ -15,7 +15,7 @@ import {
 export function Detail() {
   return (
     <Tabs defaultValue="Education" className="w-full p-3">
-      <TabsList className="grid w-full grid-cols-5 ">
+      <TabsList className="grid w-full grid-cols-5">
         {/* Tabs Trigger Button */}
         <TabsTrigger value="education" className=" hover:bg-gray-500 hover:rounded-[20px]">Education</TabsTrigger>
         <TabsTrigger value="experience"className=" hover:bg-gray-500 hover:rounded-[20px]">Experience</TabsTrigger>
