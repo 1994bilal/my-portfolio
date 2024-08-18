@@ -46,10 +46,18 @@ body {
 }
 
 .custom-image4{
-  background-image: url("../../public/assets/pro3.jpg");
+  background-image: url("../../public/assets/bg11.jpg");
 }
 
 .custom-image5{
   background-image: url("../../public/assets/cont1.jpg");
+}
+
+.custom-image6{
+  background-image: url("../../public/assets/bg7.jpg");
+}
+
+.custom-image7{
+  background-image: url("../../public/assets/bg.jpeg");
 }
 

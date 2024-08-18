@@ -10,7 +10,8 @@ import { Button } from '../ui/button';
 
 const MobileCard = () => {
   return (
-    <div data-aos="fade-up" className= "h-[90vh] flex flex-col items-center justify-center">
+    
+    <div data-aos="fade-up" className= " bg-fixed bg-cover bg center custom-image7 h-[90vh] flex flex-col items-center justify-center">
         <div className="card bg-blue-100 glass w-80 p-5 flex flex-col justify-center items-center">
         {/* Image Section */}
   <Image

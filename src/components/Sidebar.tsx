@@ -9,6 +9,7 @@ import Link from "next/link";
 
 export function Sidebar() {
   return (
+    <div className="bg-fixed bg-cover bg center custom-image6">
     <div className="h-screen flex flex-col justify-center items-center p-3">
         {/* image */}
 
@@ -61,6 +62,7 @@ export function Sidebar() {
     </Button>
     </Link>
 
+      </div>
       </div>
 
   )
