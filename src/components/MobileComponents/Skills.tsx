@@ -1,5 +1,12 @@
 import React from 'react'
 import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { FaWordpress } from "react-icons/fa6";
+import { FaReact } from "react-icons/fa6";
+import { RiNextjsFill } from "react-icons/ri";
+import { RiTailwindCssFill } from "react-icons/ri";
 
 const MobileSkills = () => {
   return (
@@ -16,7 +23,7 @@ const MobileSkills = () => {
             <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
               <FaHtml5 className='text-white text-lg'/>
             </div>
-            <h2 className="text-lg font-semibold tracking-tight">
+            <h2 className="text-lg text-white font-semibold tracking-tight">
               HTML
             </h2>
             
@@ -32,9 +39,9 @@ const MobileSkills = () => {
        
        <div className="flex items-center mb-3">
          <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-           <FaHtml5 className='text-white text-lg'/>
+           <FaCss3Alt className='text-white text-lg'/>
          </div>
-         <h2 className="text-lg font-semibold tracking-tight">
+         <h2 className="text-lg text-white font-semibold tracking-tight">
            CSS
          </h2>
          
@@ -50,9 +57,9 @@ const MobileSkills = () => {
        
        <div className="flex items-center mb-3">
          <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-           <FaHtml5 className='text-white text-lg'/>
+           <SiTypescript className='text-white text-lg'/>
          </div>
-         <h2 className="text-lg font-semibold tracking-tight">
+         <h2 className="text-lg text-white font-semibold tracking-tight">
            TypeSript
          </h2>
          
@@ -69,9 +76,9 @@ const MobileSkills = () => {
        
        <div className="flex items-center mb-3">
          <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-           <FaHtml5 className='text-white text-lg'/>
+           <SiJavascript className='text-white text-lg'/>
          </div>
-         <h2 className="text-lg font-semibold tracking-tight">
+         <h2 className="text-lg text-white font-semibold tracking-tight">
          JavaScript
          </h2>
          
@@ -88,9 +95,9 @@ const MobileSkills = () => {
        
        <div className="flex items-center mb-3">
          <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-           <FaHtml5 className='text-white text-lg'/>
+           <FaWordpress className='text-white text-lg'/>
          </div>
-         <h2 className="text-lg font-semibold tracking-tight">
+         <h2 className="text-lg text-white font-semibold tracking-tight">
          WordPress
          </h2>
          
@@ -106,9 +113,9 @@ const MobileSkills = () => {
        
        <div className="flex items-center mb-3">
          <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-           <FaHtml5 className='text-white text-lg'/>
+           <FaReact className='text-white text-lg'/>
          </div>
-         <h2 className="text-lg font-semibold tracking-tight">
+         <h2 className="text-lg text-white font-semibold tracking-tight">
          React
          </h2>
          
@@ -124,9 +131,9 @@ const MobileSkills = () => {
        
        <div className="flex items-center mb-3">
          <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-           <FaHtml5 className='text-white text-lg'/>
+           <RiNextjsFill className='text-white text-lg'/>
          </div>
-         <h2 className="text-lg font-semibold tracking-tight">
+         <h2 className="text-lg text-white font-semibold tracking-tight">
          NextJS
          </h2>
          
@@ -142,9 +149,9 @@ const MobileSkills = () => {
        
        <div className="flex items-center mb-3">
          <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-blue-500 text-white flex-shrink-0">
-           <FaHtml5 className='text-white text-lg'/>
+           <RiTailwindCssFill className='text-white text-lg'/>
          </div>
-         <h2 className="text-lg font-semibold tracking-tight">
+         <h2 className="text-lg text-white font-semibold tracking-tight">
          TailwindCss
          </h2>
          

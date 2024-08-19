@@ -4,7 +4,7 @@ const MobileContact = () => {
   return (
     <div className="bg-fixed bg-cover bg center custom-image5">
         <div className="w-full p-5">
-      <h2 className="scroll-m-20 border-b border-blue-500 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+      <h2 className="scroll-m-20 border-b border-blue-500 pb-2 text-3xl text-white font-semibold tracking-tight first:mt-0">
       Contact
     </h2>
     </div>

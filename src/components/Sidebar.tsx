@@ -23,7 +23,7 @@ export function Sidebar() {
 
         {/* name here */}
         <div className="mt-2">
-        <h1  className="text-2xl font-bold tracking-tight uppercase">Bilal Fiaz</h1>
+        <h1  className="text-2xl text-white font-bold tracking-tight uppercase">Bilal Fiaz</h1>
         <h2 className="text-md font-semibold text-center text-blue-600">
         <Typewriter
   options={{

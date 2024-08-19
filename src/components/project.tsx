@@ -61,7 +61,7 @@ const Projects = () => {
             src={`/assets/${item.image}`}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0
-           hover:opacity-100 cursor-pointer duration-300 ">
+           hover:opacity-100 cursor-pointer duration-300">
             <h4 className="text-sm font-semibold tracking-tight text-blue-700">
               {item.category}
             </h4>

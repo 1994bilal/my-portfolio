@@ -48,7 +48,7 @@ const MobileEducation = () => {
   
   ];
   return (
-    <div className="bg-fixed bg-cover bg center custom-image">
+    <div  className="bg-fixed bg-cover bg center custom-image">
     <div className="w-full p-5">
       <h2 className="scroll-m-20 border-b border-blue-500 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
       Education
@@ -61,10 +61,10 @@ const MobileEducation = () => {
 
       <div  key={i}className=" py-6 flex flex-wrap md:flex-nowrap ">
         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-          <span className="font-semibold title-font text-gray-700 uppercase">
+          <span className="font-semibold title-font text-white uppercase">
             {item.degree}
           </span>
-          <span className="mt-1 text-blue-500 text-sm">
+          <span className="mt-1 text-black font-extrabold text-sm">
             {item.year}
           </span>
         </div>

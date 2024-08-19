@@ -75,10 +75,10 @@ work:["Data Entry Forms", "Children BioData" ]
 
       <div  key={i}className="py-8 flex flex-wrap md:flex-nowrap ">
         <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-          <span className="font-semibold title-font text-gray-700 uppercase">
+          <span className="font-semibold title-font text-white uppercase">
             {item.Position}
           </span>
-          <span className="mt-1 text-gray-500 text-sm">
+          <span className="mt-1 text-blue-900 font-extrabold text-sm">
             {`${item.StartDate} - ${item.EndDate}`}
           </span>
         </div>
