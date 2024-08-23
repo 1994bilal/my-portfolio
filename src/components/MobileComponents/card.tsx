@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import { FaBars } from "react-icons/fa";
 import Typewriter from 'typewriter-effect';
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
@@ -7,10 +8,47 @@ import { FaGithub } from "react-icons/fa";
 import { FaCloudDownloadAlt } from "react-icons/fa";
 import Link from "next/link";
 import { Button } from '../ui/button';
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
 
 const MobileCard = () => {
   return (
+    <>
+    <Sheet>
+  <SheetTrigger className='md:hidden'><FaBars className='text-4xl m-4'/></SheetTrigger>
+  <SheetContent className='text-center bg-black text-white font-semibold'>
+
+      <SheetTitle>B.Store</SheetTitle>
+  
     
+
+    <ul  className='md:flex gap gap-x-6 p-6 font-semibold'>
+        
+        
+        <li className='mb-5'><Link href="Education">Education
+        </Link></li>
+        <li className='mb-5'><Link href="Skills">Skills
+        </Link></li>
+        <li className='mb-5'><Link href="Experience">Experience
+        </Link></li>
+    
+        <li className='mb-5'><Link href="Projects">Projects
+        </Link></li>
+  
+        <li className='mb-5'><Link href="Contact">Contact
+        </Link></li>
+    </ul>
+    
+        </SheetContent>
+</Sheet>
+
+
     <div data-aos="fade-up" className= " bg-fixed bg-cover bg center custom-image7 h-[90vh] flex flex-col items-center justify-center">
         <div className="card bg-blue-100 glass w-80 p-5 flex flex-col justify-center items-center">
         {/* Image Section */}
@@ -64,6 +102,7 @@ const MobileCard = () => {
     </div>
   </div>
 </div>
+</>
 
   );
 };
