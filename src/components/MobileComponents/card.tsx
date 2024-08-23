@@ -24,24 +24,24 @@ const MobileCard = () => {
   <SheetTrigger className='md:hidden'><FaBars className='text-4xl m-4'/></SheetTrigger>
   <SheetContent className='text-center bg-black text-white font-semibold'>
 
-      <SheetTitle>B.Store</SheetTitle>
+      <SheetTitle className='text-yellow-500 text-4xl'>Bilal Fayyaz</SheetTitle>
   
     
 
     <ul  className='md:flex gap gap-x-6 p-6 font-semibold'>
         
         
-        <li className='mb-5'><Link href="Education">Education
+        <li className='mb-5 hover:text-yellow-500'><Link href="#education" target='_blank'>Education
         </Link></li>
-        <li className='mb-5'><Link href="Skills">Skills
+        <li className='mb-5 hover:text-yellow-500'><Link href="#skills" target='_blank'>Skills
         </Link></li>
-        <li className='mb-5'><Link href="Experience">Experience
+        <li className='mb-5 hover:text-yellow-500'><Link href="#experience" target='_blank'>Experience
         </Link></li>
     
-        <li className='mb-5'><Link href="Projects">Projects
+        <li className='mb-5 hover:text-yellow-500'><Link href="#projects" target='_blank'>Projects
         </Link></li>
   
-        <li className='mb-5'><Link href="Contact">Contact
+        <li className='mb-5 hover:text-yellow-500'><Link href="#contact" target='_blank'>Contact
         </Link></li>
     </ul>
     

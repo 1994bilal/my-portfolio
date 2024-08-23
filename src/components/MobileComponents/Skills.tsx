@@ -10,7 +10,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 const MobileSkills = () => {
   return (
-    <div className="bg-fixed bg-cover bg center custom-image3">
+    <div id='skills' className="bg-fixed bg-cover bg center custom-image3">
     <div className='w-full p-5'>
         <h2 className="scroll-m-20 border-b border-blue-500 pb-2 text-3xl font-semibold tracking-tight first:mt-0">
       Skills
